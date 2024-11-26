@@ -1,9 +1,9 @@
 import java.util.*;
 class Soldado {
-    protected String nombre;
-    protected int puntosVida;
-    protected int fila;
-    protected int columna;
+    private String nombre;
+    private int puntosVida;
+    private int fila;
+    private int columna;
     public Soldado(String nombre, int puntosVida, int fila, int columna) {
         this.nombre = nombre;
         this.puntosVida = puntosVida;
